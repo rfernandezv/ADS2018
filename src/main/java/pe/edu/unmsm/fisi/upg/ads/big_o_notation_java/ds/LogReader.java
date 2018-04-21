@@ -1,18 +1,19 @@
 package pe.edu.unmsm.fisi.upg.ads.big_o_notation_java.ds;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Collection;
 import java.util.Iterator;
 
 public class LogReader implements Iterable<LogLine> {
     private final int sizeLogLines;
     private final int sizeUniqueIps;
-    private Collection<String> uniqueIps;
+    private HashSet<String> uniqueIps;
 
     public LogReader(int sizeLogLines, int sizeUniqueIps) {
         this.sizeLogLines = sizeLogLines;
         this.sizeUniqueIps = sizeUniqueIps;
-        this.uniqueIps = new ArrayList<String>();
+        this.uniqueIps = new HashSet<String>();
     }
 
     public Iterator<LogLine> iterator() {
