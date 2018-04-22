@@ -1,0 +1,50 @@
+﻿Event Enter
+	/*
+	///////////////////////////////////////////////////
+    //// Algoritmo lineal Fibonacci ///////
+	///////////////////////////////////////////////////
+	*/
+	&a = 0
+	&b = 1
+	&c = 0
+	for &i = 0 to &numero-1
+		&c = &a + &b
+		&a = &b
+		&b = &c
+		msg((&i+1)+" => "+&a)
+	endfor			
+EndEvent
+
+
+
+Event "ProgramacionDinamica"
+	/*
+	///////////////////////////////////////////////////
+    //// Algoritmo 2 Fibonacci - Prog. Dinámica ///////
+	///////////////////////////////////////////////////
+	*/
+
+	&flag = true
+	if &numero < 0
+		msg("Number can not be less than zero")
+		&flag = false
+	endif
+
+	if &numero <= 2
+		&a = 1
+		msg("1 => 1")
+		&flag = false
+	endif
+	
+	if(&flag)
+		&array.Add(0)
+		&array.Add(1)
+		msg("1 => 1")
+		
+		for &i = 2 to &numero
+			&array.Add(&array.Item(&i-1) + &array.Item(&i))
+			msg((&i)+" => "+ &array.Item(&i))
+		endfor
+		&a = &array.Item(&numero)
+	endif	
+EndEvent
