@@ -1,0 +1,28 @@
+﻿Compilación iniciada a las 22/04/2018 05:09:06 p. m..
+     1>Proyecto "C:\Users\Richar\Documents\Visual Studio 2010\Projects\Fibonacci_cplus\Fibonacci_cplus\Fibonacci_cplus.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\Fibonacci_cplus.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Fibonacci_cplus.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Fibonacci_cplus.cpp
+         Fibonacci_cplus.cpp
+       ManifestResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Richar\Documents\Visual Studio 2010\Projects\Fibonacci_cplus\Debug\Fibonacci_cplus.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Fibonacci_cplus.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Richar\Documents\Visual Studio 2010\Projects\Fibonacci_cplus\Debug\Fibonacci_cplus.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Richar\Documents\Visual Studio 2010\Projects\Fibonacci_cplus\Debug\Fibonacci_cplus.lib" /MACHINE:X86 Debug\Fibonacci_cplus.exe.embed.manifest.res
+         Debug\Fibonacci_cplus.obj
+         Debug\stdafx.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Fibonacci_cplus.exe.embed.manifest" /manifest Debug\Fibonacci_cplus.exe.intermediate.manifest
+         Todas las salidas están actualizadas.
+       LinkEmbedManifest:
+         Todas las salidas están actualizadas.
+         Fibonacci_cplus.vcxproj -> C:\Users\Richar\Documents\Visual Studio 2010\Projects\Fibonacci_cplus\Debug\Fibonacci_cplus.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\Fibonacci_cplus.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\Fibonacci_cplus.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Richar\Documents\Visual Studio 2010\Projects\Fibonacci_cplus\Fibonacci_cplus\Fibonacci_cplus.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.82
