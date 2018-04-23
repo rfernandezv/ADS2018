@@ -65,7 +65,7 @@ Como detalle final e importante, la lista tiene que estar ordenada para que la b
 
 
 --------------------------------------------------------
-1: Complejidad exponencial de la serie de fibonacci
+2: Complejidad exponencial de la serie de fibonacci
 --------------------------------------------------------
 El algoritmo de fibonacci muestra una complejidad exponencial en el algoritmo recursivo otorgado en clase
 Analizando su complejidad se observa que, recursivamente, se llama a sus dos anteriores posiciones creando un árbol de llamadas que aumenta de acuerdo al número final a calcular. Como ejemplo, si calculamos la serie fibonacci:
