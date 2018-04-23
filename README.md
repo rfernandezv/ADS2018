@@ -21,8 +21,7 @@ Tarea 1:
 --------------------------------------------------------
 1: Complejidad logarítmica de la búsqueda binaria
 --------------------------------------------------------
-Para entender y explicar la complejidad logarítmica de la búsqueda binaria se empezó comprobando su efectividad en la búsqueda.
-Se verificó el performance llenando 2 listas: uno de 400 000 y otro de 4 000 000 de números, pero se colocó un dato a buscar que no existe en la lista para tratar de crear el peor escenario y el algoritmo realice todas las posibilidades posibles. El resultado en consola fue el siguiente:
+Para entender y explicar la complejidad logarítmica de la búsqueda binaria se empezó comprobando su efectividad en la búsqueda. Se verificó el performance llenando 2 listas: uno de 400 000 y otro de 4 000 000 de números, pero se colocó un número a buscar que no existe en la lista para tratar de crear el peor escenario y el algoritmo realice todas las posibilidades posibles. El resultado en consola fue el siguiente:
 ------------------------------------------------------------------------
  - Number of list: 400 000
  - Not found
