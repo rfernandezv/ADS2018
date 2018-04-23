@@ -3,15 +3,17 @@
 ----------------------------
 Tarea 2:
 ----------------------------
-Se realizó la migración del algoritmo para encontrar la serie fibonacci, lineal y dinámica en los lenguajes:
+Para esta tarea se realizó la migración del algoritmo para encontrar la serie fibonacci, lineal y dinámica en los lenguajes:
  - PHP
  - C#
  - Visual C++
  - Genexus
  - Javascript 
- 
+ -------------------------------------------------------------------------------------------------------
+ - Creé la carpeta "archivos" donde están sólo los códigos fuentes del algoritmo para cada lenguaje.
+ - Creé la carpeta "proyectos" donde están las soluciones de c# (ConsoleApplication1), visual c++ (Fibonacci_cplus), y el xpz de la base de conocimiento de GX.
 El algoritmo hecho en clase lo programé en el lenguaje Java.
-Creé la carpeta "archivos" donde están los código fuente del algoritmo para cada lenguaje.
+
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
